@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #014E56;
+    padding-top: 77px;
+    padding-bottom: 124px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: white;
+
+}
+
+button {
+    background-color: inherit;
+    padding: 9px 32px;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: white;
+    padding: 9px 32px;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: #002529;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.s1 {
+    background-color: #014E56;
+    padding-bottom: 120px;
+}
+
+.s1 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.s1 .container h1 {
+    font-family: "Livvic", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: left;
+    color: white;
+}
+
+.s1 .container p {
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+    max-width: 730px;
+}
+
+.s2 {
+    background-color: #004047;
+    padding-bottom: 148px;
+}
+
+.s2 .container h1 {
+    font-family: "Livvic", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    padding: 71px 0;
+}
+
+.card1 {
+    background-color: #002529;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 127px 58px 127px;
+}
+
+.card1 h3 {
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    padding-top: 23px;
+}
+
+.card1 i {
+    color: white;
+    font-family: "Livvic", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.s3 {
+    background-color: #002529;
+    padding: 113px 0;
+}
+
+.s3 .container h2 {
+    font-family: "Livvic", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    padding-bottom: 52px;
+}
+
+.imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.s4 {
+    background-color: #F67E7E;
+    padding: 76px 0;
+}
+
+.s4 .container h1 {
+    font-family: "Livvic", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #012F34;
+}
+
+.s4 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 413px;
+}
+
+.btn1 {
+    background-color: inherit;
+    padding: 9px 32px;
+    border: 2px solid #012F34;
+    border-radius: 40px;
+    color: #012F34;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn1:hover {
+    background-color: #012F34;
+    padding: 9px 32px;
+    border: 2px solid #012F34;
+    border-radius: 40px;
+    color: #ffffff;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #002529;
+    padding: 48px 0;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.is i {
+    color: white;
+    font-size: 24px;
+}
+
+.is {
+    display: flex;
+    gap: 16px;
+}
+
+@media(max-width:768px) {
+    header .container img {
+        width: 127.96px;
+        height: 32px
+    }
+
+    header {
+        background-color: #014E56;
+        padding: 77px 126px 124px 126px;
+    }
+
+    .s1 .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .s1 .container p {
+        max-width: 457px;
+        text-align: center;
+    }
+
+    .s2 .container h1 {
+        font-size: 32px;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 11px;
+    }
+
+    .card1 {
+        width: 281px;
+
+    }
+
+    .imgs img {
+        width: 103px;
+        height: 17px;
+        
+
+    }
+}
